@@ -13,7 +13,6 @@ import { IoIosArrowDropleftCircle } from "react-icons/io";
 
 
 
-import { IoMdSettings } from "react-icons/io";
 
 
 export default function Home() {

@@ -2,12 +2,12 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 import {RiSettings3Fill} from "react-icons/ri";
 import { FaBell } from "react-icons/fa";
-import { AiOutlineMenu } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
 import { RiAccountCircleFill } from "react-icons/ri";
-
-
-
+import { FaCalendar } from "react-icons/fa";
+import { FaDollarSign } from "react-icons/fa";
+import { FaClipboardList } from "react-icons/fa";
+import { FaMessage } from "react-icons/fa6";
 
 
 
@@ -37,24 +37,14 @@ const structer = ()=>{
                 </div>
             </div>
 
-            {/*<hr className={"border-separate sm:block divide-border-black-400 visible h-5 box-content right-[250px] top-6 fixed flex-auto w-[200px]"}/>*/}
-
             <div className={'relative left-[900px]  top-[-70px]'}>
                 <a className="nav-link text-black text-opacity-75 hover:text-white" href="">
                     <RiAccountCircleFill className={"iconSpeedMeter  h-10 w-10 top-[15px] right-[30px] fixed flex-auto"}/>
-                    <span className={" font-mono text-xs text-zinc-950 top-[0px] right-[200px] fixed flex-auto"}>Douglas McGee</span>
+                    <span className={" font-mono text-xs text-zinc-950 top-[20px] right-[75px] fixed flex-auto"}>Douglas McGee</span>
                 </a>
             </div>
 
         </div>
-        // <div className={"content"}>
-        //     <nav className={"absolute text-blue-300 bg-white h-[70px] w-full"}></nav>
-        //     <button className={"bg-blue-500 hover:bg-blue-300   absolute w-[41px] h-[41.5px] top-[-41.7px] rounded-r-lg left-[414.5px] fixed"}>
-        //         <li className={"absolute  left-[-10rem] text-white fixed flex-auto"}>
-        //             <AiOutlineMenu className={"text-blue-800  h-16 w-8"} />
-        //         </li>
-        //     </button>
-        // </div>
     )
 }
 export default structer;

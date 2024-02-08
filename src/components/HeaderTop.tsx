@@ -6,22 +6,14 @@ import {TiSpanner} from "react-icons/ti";
 import {FaTable} from "react-icons/fa6";
 import {IoIosArrowDropleftCircle} from "react-icons/io";
 import Structer from "./structer";
+import Content from "./content";
 
 const HeaderTop = ()=>{
     return(
-            <div className={"bg-gray-200"}>
-                <Structer/>
-                <div className={"relative"}>
+        <div className={"bg-gray-200"}>
+            <Structer/>
 
-                {/*<div className={'absolute  text-blue-300 h-[80px] w-full '}>*/}
-                {/*    <div className={'w-[50px] sm:w-[50px] md:w-[30%] relative justify-between items-center top-5  left-[250px]  '}>*/}
-                {/*        <input type={'text'}  placeholder={'Search for...'} className={'border-gray-200 border p-2 px-4 rounded-lg w-full' }/>*/}
-                {/*        <button className={'relative bg-blue-700 w-7 h-7 top-[-30px] left-10'}>*/}
-                {/*        </button>*/}
-
-                {/*    </div>*/}
-                {/*</div>*/}
-
+            <div className={"relative"}>
                 <ul>
                     <div className={'flex-wrap items-center justify-center bg-gradient-to-b from-blue-500 to-blue-800 h-[100vh] w-[225px]  '}>
                         <ImWink2 className={'icon relative left-8 top-4 w-[30px] h-[30px] text-white -rotate-12'}/>
@@ -58,10 +50,7 @@ const HeaderTop = ()=>{
                             </a>
                         </li>
 
-
                         <hr className={"sidebar-divider my-0 border-gray-400 visible h-0 box-content relative top-[26px] left-4 w-[200px]"}/>
-
-
 
                         <li className="nav-item-flex">
                             <a className="nav-link" href="">
@@ -92,19 +81,19 @@ const HeaderTop = ()=>{
 
                         <hr className={"sidebar-divider my-0 border-gray-400 visible h-0 box-content relative top-[26px] left-4 w-[200px]"}/>
 
-
                         <li className="nav-item-flex">
                             <a className="nav-link text-white text-opacity-75 hover:text-white" href="">
                                 <IoIosArrowDropleftCircle  className={"iconSpeedMeter relative h-40 w-10 top-[15px] left-20"}/>
                             </a>
                         </li>
+
+
                     </div>
+
                 </ul>
-
-
-
-
             </div>
+            <div><Content/></div>
+
         </div>
     )
 }
